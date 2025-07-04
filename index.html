@@ -9,23 +9,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--baggrundsbillede-->
-<div>
-    <img src="sea.jpg"
-        id = "background">
-</div>
 
-<!--boxe til spillet-->
-<canvas id="morfi-target"></canvas>
-<canvas id="flamingo">
-    <img src="flamingo.png">
-</canvas>
+<section id = "game-wrapper">
+    <!--div til tekst-->
+    <div class = "content">
+        <h1 id="message"> </h1>
+    </div>
 
-<!--div til tekst-->
-<div id="message"></div>
+    <!--boxes til spillet-->
+    <div id="morfi-target"
+         class="game-items"
+    ></div>
+    <div id="flamingo"
+         class = "game-item">
+        <img src="flamingo.png">
+    </div>
 
-<!--div til knapper-->
-<div id="button-content"></div>
+    <!--div til knapper-->
+    <div id="button-content"
+         class = "content"
+    ></div>
 
+</section>
 <script src="main.js"></script>
 </body>

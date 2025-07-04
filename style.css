@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    background-image: url('img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 667px;
+    width: 375px;
+}
+
+#game-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("sea.jpg");
+    background-size: cover;
+    overflow: hidden; /* forhindrer at noget går udenfor */
+    touch-action: none;
+}
+
+#message {
+    font-size: 2rem;
+    min-width: 7rem;
+    color: white;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flamingo {
+    height: 100px;
+    position: absolute;
+    top: 500px;
+}
